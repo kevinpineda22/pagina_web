@@ -1,16 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendEmailVerification } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js";
 
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAlaFymWa_XXlMUScf05h9CP6CNGcWEi5Y",
-  authDomain: "login-736ac.firebaseapp.com",
-  projectId: "login-736ac",
-  storageBucket: "login-736ac.appspot.com",
-  messagingSenderId: "1091401843350",
-  appId: "1:1091401843350:web:f54074ef8338d9b1f2f8b7",
-  measurementId: "G-0HP0QFHENJ"
-};
+//en esta linea va todo la firebase. Pero por seguridad elimino esta linea ya que el codigo va hacer publico
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
